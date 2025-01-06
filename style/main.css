@@ -5,6 +5,31 @@
 a[href="#-"] {
     display: none;
 }*/
+@media (min-width: 768px)
+{
+	.m-0.flex.flex-row.items-start.gap-2.justify-start.ml-0.md\:ml-6
+	{
+		margin-left: 0 !important; /* Overwrites the margin */
+	}
+}
+
+/* Change max-width of mt-1 to 100% */
+.max-w-xl
+{
+	max-width: 100% !important;
+}
+
+/* Change max-width of group to 100% */
+.max-w-3xl
+{
+	max-width: 100% !important;
+}
+
+/* Change max-width of flex-col to 100% */
+.max-w-2xl
+{
+	max-width: 100% !important;
+}
 
 [data-tool="cai_tools"] a {
     color: #0085ff;
